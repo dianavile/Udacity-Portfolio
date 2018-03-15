@@ -12,3 +12,4 @@ Click here: https://dianavile.github.io/Udacity-Portfolio/
  Make the website responsive
 
 ### Mockup
+![Portfolio](https://github.com/dianavile/Udacity-Portfolio/blob/master/img/design-mockup-portfolio.png 'Portfolio Mockup')
