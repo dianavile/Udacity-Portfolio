@@ -1,0 +1,129 @@
+@import url(css/links.css);
+html {
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+html, body {
+  height: 100px;
+  align-items: center;
+  margin: auto;
+  font-family: "Raleway", Arial, sans-serif;
+  color: #2d3c49;
+}
+
+/*Header*/
+
+.header-logo {
+  height: 54px;
+}
+
+.header-title, 
+.header-subtitle {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header-title, 
+.header-subtitle, 
+.featured-work {
+  font-weight: lighter;
+}
+
+.header-title {
+  font-size: 36px;
+  color: #02b3e4;
+}
+
+.header-subtitle {
+  text-align: justify;
+  font-size: 28px;
+}
+
+.header-border {
+  border-bottom: 3px solid #7d97ad;
+}
+
+/*Hero*/
+
+.hero {
+  background-color: #7d97ad;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+/*Projects*/
+
+.projects_title {
+  color: #2d3c49;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+.ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.span {
+  font-weight: 700;
+  text-align: right;
+}
+
+.card {
+  color: #dcdde1;
+  background: #bcbdc2;
+  max-width: 100%;
+}
+
+.card-text {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.card-title {
+  color: #02b3e4;
+  font-size: 28px;
+}
+
+.hr {
+  height: 30px;
+}
+
+/* TODO: add ABOUT, CONTACT SECTION*/
+
+/*Footer*/
+
+.footer {
+  background-color: #7d97ad;
+  padding: 10px 0;
+}
+
+.footer_title, 
+.footer_social, 
+.footer_text, 
+.footer_copyright {
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer-social {
+  font-size: 18px;
+}
+
+.footer a {
+  color: #0ce8dd;
+  font-size: 18px;
+  padding: 10px;
+  border-right: 1px solid;
+  transition: all 0.5s ease;
+}
+
+.footer a:first-child {
+  border-left: 1px solid;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
